@@ -41,6 +41,5 @@ public class Main {
                 .sorted(Comparator.naturalOrder())// Использовал натуральную сортировку, поскольку у нас список фамилий - String
                 .collect(Collectors.toList());
         System.out.println("3.Потенциально работоспособные люди с высшим образованием: " + workableHigherList);
-
     }
 }
